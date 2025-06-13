@@ -460,6 +460,13 @@ def main():
     
     # App header
     st.title("📊 Excess Inventory Analysis")
+    
+    st.markdown(
+        "<p style='font-size:18px; font-style:italic; margin-top:-10px; text-align:left;'>"
+        "Designed and Developed by Agilomatrix</p>",
+        unsafe_allow_html=True
+    )
+    
     st.markdown("---")
     
     # Sidebar for controls
